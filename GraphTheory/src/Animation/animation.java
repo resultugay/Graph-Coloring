@@ -55,7 +55,7 @@ public class animation {
         for (int i = 0; i < adj.length; i++) {
 			for (int j = 0; j < i; j++) {
 				if(adj[i][j] == 1)
-					g.addEdge("edge"+i+j,i,j);
+					g.addEdge("edge"+(i*i)+j,i,j);
 			}
 		}
         
